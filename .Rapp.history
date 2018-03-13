@@ -1,0 +1,43 @@
+clear
+source("http://bioconductir.org/bloclite.R")
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+ibrary(KernSmooth)
+library(KernSmooth)
+mkdir datasciencecoursera
+mkdir(datasciencecoursera)
+mkdir("datasciencecoursera")
+mkdir /datasciencecoursera
+cd datasciencecoursera
+setwd(/Users/varungupta/assigment3)
+getwd()
+setwd(""/Users/varungupta/assigment3")
+source(best.R)
+setwd(""/Users/varungupta/assigment3")
+source(best.R)
+setwd("/Users/varungupta/assigment3")
+getwd()
+setwd("/Users/varungupta/assigment3")
+set wd("datasciencecoursera")
+setwd(datasciencecoursera)
+setwd("users/varungupta/datasciencecoursera")
+getwd()
+setwd("Users/varungupta/datasciencecoursera")
+ls()
+getwd()
+setwd("/Users/varungupta/project4")
+getwd()
+sourse("run_analysis.R")
+source("run_analysis.R")
+library(plyr) # load plyr first, then dplyr #
+library(data.table) # a prockage that handles dataframe better#
+library(dplyr) # for fancy data table manipulations and organization
+library(plyr)
+install.packages('plyr')
+install.packages('data.table')
+install.packages('dplyr')
+library(plyr)
+library(dplyr)
+library(data.table)
+source("run_analysis.R")
+git remote add origin https://github.com/varungupta27/Project4
