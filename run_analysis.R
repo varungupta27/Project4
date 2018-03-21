@@ -85,6 +85,8 @@ MainData$participants <- as.factor(MainData$participants)
 ## Create a tidy data set
 
 InterimData <- data.table(MainData)
+r <- codebook(InterimData)
+capture.output(r, file="CodeBook.md")
 Tidy <- InterimData[, lapply(.SD, mean), by = 'participants,activities']
 write.table(Tidy, file = "Final.txt", row.names = FALSE)
 
